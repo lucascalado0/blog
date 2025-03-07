@@ -5,7 +5,7 @@
                 alt="">
         </div>
         <div class="small-card-text">
-            <a href={{cardLink}} target="_blank"><h4>{{cardTitle}}</h4></a>
+            <h4><a [routerLink]="['content', Id]" routerLinkActive="router-link-active">{{cardTitle}}</a></h4>
             <p>{{cardDescription}}</p>
         </div>
     </div>
